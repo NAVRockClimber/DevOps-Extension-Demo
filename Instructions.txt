@@ -1,0 +1,6 @@
+
+1. Create Publisher in DevOps Marketplace
+	https://marketplace.visualstudio.com/manage
+2. Follow Guide
+	https://docs.microsoft.com/en-us/azure/devops/extend/get-started/node?view=azure-devops
+	https://docs.microsoft.com/en-us/azure/devops/extend/develop/add-build-task?view=azure-devops#add-typings-for-external-dependencies
