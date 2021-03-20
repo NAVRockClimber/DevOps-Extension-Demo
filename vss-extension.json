@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "hello-world-tasks",
     "name": "Fabrikam Build and Release Tools",
-    "version": "0.0.15",
+    "version": "0.0.17",
     "publisher": "cosmo-dev3",
     "targets": [
         {
@@ -16,6 +16,9 @@
     "files": [
         {
             "path": "Tasks/HelloWorldV0"
+        },
+        {
+            "path": "Tasks/HelloWorldV1"
         }
     ],
     "contributions": [
@@ -27,6 +30,16 @@
             ],
             "properties": {
                 "name": "Tasks/HelloWorldV0"
+            }
+        },
+        {
+            "id": "HelloWorldV1",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "Tasks/HelloWorldV1"
             }
         }
     ]
